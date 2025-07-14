@@ -1,4 +1,4 @@
-"use client"
+import { Button } from "./Button";
 
 export const SigninComponent = function() {
     function handler(){
@@ -16,8 +16,7 @@ export const SigninComponent = function() {
                     <div className="pt-2">
                         <LabelledInput label="Username" placeholder="devleo@gmail.com" />
                         <LabelledInput label="Password" type={"password"} placeholder="XYXYXYXY" />
-                        <button 
-                        onClick={handler} type="button" className="mt-8 w-full text-white bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">Sign in</button>
+                       <Button/>
                     </div>
                 </div>
             </a>
